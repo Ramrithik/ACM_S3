@@ -1,0 +1,65 @@
+body {
+  font-family: Arial, sans-serif;
+  background: url('black.webp');
+  background-size: cover;
+  text-align: center;
+  margin: 0;
+  color: #fff;
+}
+
+
+h1 {
+  color: rgb(0, 0, 0);
+  -webkit-text-stroke: 1px rgba(94, 21, 203, 0.529);
+}
+
+.container {
+  max-width: 600px;
+  margin: auto;
+  padding: 20px;
+  border-radius: 12px;
+}
+
+input {
+  padding: 10px;
+  width: 70%;
+  border: 2px solid #8e44ad;
+  border-radius: 8px;
+  background-color: #100820;
+  color: #fff;
+}
+
+button {
+  background-color: #1e1e2f;
+  color: #fff;
+  padding: 10px 20px;
+  font-size: 16px;
+  border: 2px solid #9b59b6;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+button:hover {
+  background-color: #9b59b6;
+  color: black;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  background-color: rgba(25, 3, 85, 0.8);
+  margin: 10px 0;
+  padding: 15px;
+  border-radius: 10px;
+  color: #ffffff;
+  transition: 0.3s;
+}
+
+li:hover {
+  transform: scale(1.02);
+  box-shadow: 0 0 18px #c83eff;
+}
