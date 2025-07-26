@@ -1,0 +1,62 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color:rgb(15, 15, 15);
+    color: #e0e0e0;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+header h1 {
+    color: white;
+    margin: 0;
+}
+
+header p {
+    color: goldenrod;
+    font-size: 1.1em;
+}
+
+#apod-container {
+    background-color: #1e1e1e;
+    border-radius: 10px;
+    padding: 25px;
+    max-width: 800px;
+    width: 100%;
+    
+}
+
+#apod-title {
+    color: rgb(209, 45, 45);
+    margin-top: 0;
+    text-align: center;
+}
+
+#media-container {
+    width: 100%;
+    margin: 20px 0;
+}
+
+#apod-image, #apod-video {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    border-radius: 5px;
+}
+
+#apod-video {
+    width: 100%;
+    aspect-ratio: 16 / 9; 
+}
+
+#apod-explanation {
+    line-height: 1.6;
+}
