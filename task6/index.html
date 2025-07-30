@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="https://aframe.io/releases/1.2.0/aframe.min.js"></script>
+    <script src="https://cdn.rawgit.com/jeromeetienne/ar.js/1.7.2/aframe/build/aframe-ar.min.js"></script>
+  </head>
+  <body style="margin: 0; overflow: hidden;">
+    <a-scene embedded arjs>
+      <a-marker preset="hiro">
+        <a-sphere position="0 0.5 0" radius="0.3" color="yellow"
+                  animation="property: rotation; to: 0 360 0; loop: true; dur: 8000"></a-sphere>
+        <a-ring position="0 0.01 0" radius-inner="0.79" radius-outer="0.81" rotation="-90 0 0" color="blue" opacity="0.4"></a-ring>
+        <a-entity rotation="0 0 0" animation="property: rotation; to: 0 360 0; loop: true; dur: 10000">
+          <a-sphere position="0.8 0.5 0" radius="0.1" color="blue"></a-sphere>
+        </a-entity>
+        <a-ring position="0 0.01 0" radius-inner="1.19" radius-outer="1.21" rotation="-90 0 0" color="red" opacity="0.4"></a-ring>
+        <a-entity rotation="0 0 0" animation="property: rotation; to: 0 360 0; loop: true; dur: 13000">
+          <a-sphere position="1.2 0.5 0" radius="0.08" color="red"></a-sphere>
+        </a-entity>
+        <a-ring position="0 0.01 0" radius-inner="1.39" radius-outer="1.41" rotation="-90 0 0" color="orange" opacity="0.4"></a-ring>
+        <a-entity rotation="0 0 0" animation="property: rotation; to: 0 360 0; loop: true; dur: 15000">
+          <a-sphere position="1.4 0.5 0" radius="0.21" color="orange"></a-sphere>
+        </a-entity>
+        <a-ring position="0 0.01 0" radius-inner="1.69" radius-outer="1.71" rotation="-90 0 0" color="yellow" opacity="0.4"></a-ring>
+        <a-entity rotation="0 0 0" animation="property: rotation; to: 0 360 0; loop: true; dur: 17000">
+          <a-sphere position="1.7 0.5 0" radius="0.15" color="yellow"></a-sphere>
+        </a-entity>
+        <a-ring position="0 0.01 0" radius-inner="1.99" radius-outer="2.01" rotation="-90 0 0" color="cyan" opacity="0.4"></a-ring>
+        <a-entity rotation="0 0 0" animation="property: rotation; to: 0 360 0; loop: true; dur: 19000">
+          <a-sphere position="2.0 0.5 0" radius="0.12" color="cyan"></a-sphere>
+        </a-entity>
+
+      </a-marker>
+
+      <a-entity camera></a-entity>
+    </a-scene>
+  </body>
+</html>
